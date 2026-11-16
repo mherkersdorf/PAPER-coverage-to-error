@@ -1,4 +1,4 @@
-# PUBLIC-Paper-From-Coverage-to-Worst-Case-Error-Bounds-Space-Filling-Excitation-Design
+# PUBLIC-Paper-Coverage-To-Error
 Receding-horizon space-filling excitation design for nonlinear system identification: code, settings and demo for the paper "From Coverage to Worst-Case Error Bounds: Space-Filling Excitation Design".
 
 # From Coverage to Worst-Case Error Bounds: Space-Filling Excitation Design
