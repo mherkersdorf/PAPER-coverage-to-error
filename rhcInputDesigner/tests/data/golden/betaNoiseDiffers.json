@@ -1,0 +1,104 @@
+{
+  "name": "betaNoiseDiffers",
+  "description": "betaNoise != beta: the noise field enters with its own exponent (the betaNoise default).",
+  "inputs": {
+    "Znorm": [
+      [
+        0.3
+      ],
+      [
+        0.7
+      ]
+    ],
+    "Q": [
+      [
+        0.0
+      ],
+      [
+        0.25
+      ],
+      [
+        0.5
+      ],
+      [
+        0.75
+      ],
+      [
+        1.0
+      ]
+    ],
+    "relevance": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "complexity": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "noiseLevel": [
+      1.0,
+      2.0,
+      4.0,
+      1.0,
+      8.0
+    ],
+    "epsReq0": 0.2,
+    "beta": 0.5,
+    "betaNoise": 0.25,
+    "psiMax": 1.0,
+    "pNorm": 1.0,
+    "mode": "budget",
+    "fillDistanceQ": 0.0
+  },
+  "expected": {
+    "refinement": [
+      1.0,
+      0.8408964152537145,
+      0.7071067811865476,
+      1.0,
+      0.5946035575013605
+    ],
+    "epsReq": [
+      0.2,
+      0.16817928305074292,
+      0.14142135623730953,
+      0.2,
+      0.11892071150027211
+    ],
+    "J": 0.3828427124746189,
+    "dRaw": [
+      0.3,
+      0.04999999999999999,
+      0.19999999999999996,
+      0.050000000000000044,
+      0.30000000000000004
+    ],
+    "dTilde": [
+      1.4999999999999998,
+      0.2973017787506802,
+      1.4142135623730945,
+      0.2500000000000002,
+      2.522689245761144
+    ],
+    "psi": [
+      0.4999999999999998,
+      0.0,
+      0.4142135623730945,
+      0.0,
+      1.0
+    ]
+  },
+  "source": {
+    "generatedFrom": "the method description",
+    "generator": "generate_golden.py",
+    "generatorSha256Prefix": "5cdd8837d3105c3d",
+    "date": "2026-08-30",
+    "note": "Independent Python reference. NOT derived from the MATLAB implementation."
+  }
+}

@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: >-
+  If you use this software, please cite it as below, and cite the paper given in README.md.
+type: software
+title: "From Coverage to Worst-Case Error Bounds: Space-Filling Excitation Design -- code and plotted values"
+version: v1.0-submission
+date-released: 2026-11-23
+authors:
+  - family-names: Herkersdorf
+    given-names: Max
+    affiliation: "University of Siegen, Institute of Mechanics and Automatic Control"
+  - family-names: Nelles
+    given-names: Oliver
+    affiliation: "University of Siegen, Institute of Mechanics and Automatic Control"
+repository-code: "https://github.com/mherkersdorf/PAPER-coverage-to-error"
+license: CC-BY-NC-ND-4.0
+keywords:
+  - nonlinear system identification
+  - experiment design
+  - excitation signal design
+  - space-filling design
+  - receding-horizon control

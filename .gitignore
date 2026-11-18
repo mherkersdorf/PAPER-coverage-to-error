@@ -1,0 +1,15 @@
+# Output of scripts that write files
+runs/
+**/runs/
+results/
+**/results/
+supportingSets/
+tests/last_run.txt
+
+# MATLAB and macOS
+*.asv
+*.autosave
+*.m~
+slprj/
+codegen/
+.DS_Store

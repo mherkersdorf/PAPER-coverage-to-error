@@ -1,0 +1,26 @@
+{
+  "model": "rid.surrogate.LinearStateSpace",
+  "equations": "x(k+1) = Ad x(k) + Bd u(k) + ed;  y(k) = Cd x(k) + directTerm u(k) + fd",
+  "units": "u [N], y [m], tS [s]; the 750 Hz path of p3BoucWenSimulate (interp(u, 20) to 15 kHz)",
+  "loader": "experiments/processes/p3BoucWenBla.m",
+  "Ad": [[0.91681508962681457, -0.34636577427077497, -0.083302609304870268], [0.27432519127518701, 0.926280517731641, -0.11398325084164779], [0.045088294978383729, 0.023405339931516979, 0.96375019682046692]],
+  "Bd": [[-0.020951411678730419], [0.033271268657158161], [0.0324307873149767]],
+  "ed": [[0], [0], [0]],
+  "Cd": [[-4.1347627196149741e-05, -2.3515491551480527e-05, 2.4144731729639474e-05]],
+  "fd": 0,
+  "directTerm": 7.8941344682217259e-08,
+  "tS": 0.0013333333333333333,
+  "timeConstant": 0.049005316064195135,
+  "tauDominantSamples": 36.75398704814635,
+  "aprbsT": 18.376993524073175,
+  "provenance": {
+    "blaRecordId": "p3Bla_20261029T074058",
+    "phaseSeeds": [62001, 62002, 62003, 62004],
+    "noiseSeeds": [50301, 50302, 50303, 50304],
+    "inputPath": "interp750",
+    "method": "robust method (Pintelon & Schoukens 2012): fCovarFrf, then fLoopSubSpace order 3, maxr 20, weighting covGML, no stabilization, direct feedthrough estimated; LM refinement (MaxCount Inf); kept: refined (the refined model if it is stable and its weighted cost is lower than the subspace model's; otherwise the subspace model)",
+    "script": "not included in this repository",
+    "commit": "9bc0e6116b135481d21f4204832ba1361bc36804",
+    "date": "2026-10-29T07:38:14+01:00"
+  }
+}

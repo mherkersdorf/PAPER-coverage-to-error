@@ -1,0 +1,113 @@
+{
+  "name": "allResolved",
+  "description": "Samples placed exactly on the supporting points: every dTilde = 0, so J = 0 exactly.",
+  "inputs": {
+    "Znorm": [
+      [
+        0.0
+      ],
+      [
+        0.25
+      ],
+      [
+        0.5
+      ],
+      [
+        0.75
+      ],
+      [
+        1.0
+      ]
+    ],
+    "Q": [
+      [
+        0.0
+      ],
+      [
+        0.25
+      ],
+      [
+        0.5
+      ],
+      [
+        0.75
+      ],
+      [
+        1.0
+      ]
+    ],
+    "relevance": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "complexity": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "noiseLevel": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsReq0": 0.25,
+    "beta": 0.5,
+    "betaNoise": 0.5,
+    "psiMax": 1.0,
+    "pNorm": 1.0,
+    "mode": "budget",
+    "fillDistanceQ": 0.0
+  },
+  "expected": {
+    "refinement": [
+      1.0,
+      1.0,
+      1.0,
+      1.0,
+      1.0
+    ],
+    "epsReq": [
+      0.25,
+      0.25,
+      0.25,
+      0.25,
+      0.25
+    ],
+    "J": 0.0,
+    "dRaw": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "dTilde": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    "psi": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+    ]
+  },
+  "source": {
+    "generatedFrom": "the method description",
+    "generator": "generate_golden.py",
+    "generatorSha256Prefix": "5cdd8837d3105c3d",
+    "date": "2026-08-30",
+    "note": "Independent Python reference. NOT derived from the MATLAB implementation."
+  }
+}

@@ -1,0 +1,57 @@
+{
+  "name": "singleSampleSingleSupport",
+  "description": "One sample, one supporting point. dRaw = 0.3, epsReq = 0.1, dTilde = 3, psi = min(2, 1) = 1.",
+  "inputs": {
+    "Znorm": [
+      [
+        0.2
+      ]
+    ],
+    "Q": [
+      [
+        0.5
+      ]
+    ],
+    "relevance": [
+      1.0
+    ],
+    "complexity": [
+      1.0
+    ],
+    "noiseLevel": [
+      1.0
+    ],
+    "epsReq0": 0.1,
+    "beta": 0.5,
+    "betaNoise": 0.5,
+    "psiMax": 1.0,
+    "pNorm": 1.0,
+    "mode": "budget",
+    "fillDistanceQ": 0.0
+  },
+  "expected": {
+    "refinement": [
+      1.0
+    ],
+    "epsReq": [
+      0.1
+    ],
+    "J": 1.0,
+    "dRaw": [
+      0.3
+    ],
+    "dTilde": [
+      2.9999999999999996
+    ],
+    "psi": [
+      1.0
+    ]
+  },
+  "source": {
+    "generatedFrom": "the method description",
+    "generator": "generate_golden.py",
+    "generatorSha256Prefix": "5cdd8837d3105c3d",
+    "date": "2026-08-30",
+    "note": "Independent Python reference. NOT derived from the MATLAB implementation."
+  }
+}

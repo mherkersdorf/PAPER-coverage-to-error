@@ -1,0 +1,23 @@
+{
+  "model": "rid.surrogate.LinearStateSpace",
+  "equations": "x(k+1) = Ad x(k) + Bd u(k) + ed;  y(k) = Cd x(k) + directTerm u(k) + fd",
+  "loader": "experiments/processes/p2DuffingS1.m",
+  "Ad": [[0.972251787377578, 0.18622279619703458], [-0.27126385281156384, 0.85475691597772652]],
+  "Bd": [[0.019524959278064219], [0.19113116233802976]],
+  "ed": [[-5.6680094985176863e-06], [-6.4440692431424576e-05]],
+  "Cd": [[0.99999999999999989, 2.8223258640614331e-16]],
+  "fd": -6.220529752614288e-18,
+  "directTerm": 0,
+  "tS": 0.20000000000000001,
+  "timeConstant": 3.1728780734059283,
+  "provenance": {
+    "pilotRecordId": "pilot_20260929T212537",
+    "fitRecordId": "fitS1_20260929T212727",
+    "seed": 9001,
+    "pilotNoiseLevel": 0,
+    "fitMethod": "rid.surrogate.LinearStateSpace.fitFromStates: equation-error least squares with intercept on measured states, x(k+1) ~ [x(k), u(k), 1], y(k) ~ [x(k), 1]; no direct term",
+    "script": "not included in this repository",
+    "commit": "e586dafc40dac2e925793dd6b9a2b91ea62f5be7",
+    "date": "2026-09-29T21:27:27+02:00"
+  }
+}
