@@ -11,7 +11,7 @@ Code, settings and a demo for the paper
 
 University of Siegen, Automatic Control and Mechatronics.
 
-> **Status:** the content of this repository will be published on **16 November 2026**.
+> **Status:** The code is being prepared for release and will be available in this repository by 4th December 2027.
 
 ## Contents (from 16 November 2026)
 
