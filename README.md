@@ -77,7 +77,7 @@ The design builds on the RHC framework of
 
 ## Contact
 
-<CONTACT>
+max.herkersdorf@uni-siegen.de
 
 ## License
 
